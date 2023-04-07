@@ -1,0 +1,48 @@
+.App {
+    display: flex;
+    background-image: url("https://w.wallhaven.cc/full/ne/wallhaven-neoxo8.png");
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.load {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allPokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    overflow: auto;
+}
+
+.card {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.418);
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.pokemon {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+
+.pokemon img {
+    width: 100px;
+    height: auto;
+}
